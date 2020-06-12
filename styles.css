@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+
+.container {
+    background-color: lightgray;
+    border-radius: 1.5%;
+    margin: 1% 10%;
+    padding: 1%;
+    height: 90%;
+}
+
+#pixel-container {
+    display: grid;
+    grid-template-columns: repeat(100, auto);
+    height: 85%;
+    grid-gap: 1px;
+}
+
+.boxes {
+    background-color: #fff;
+}
+
+#color-picker {
+    background-color: lightgray;
+    height: 12%;
+    margin: 1% 0;
+    padding: .5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: ". . . . . . . . . . . . . . . . . . . ." ". . . . . . . . . . . current-color current-color current-color current-color current-color current-color current-color current-color current-color";
+}
+.current-color { grid-area: current-color; }
+
+.color-1 {
+    background-color: red;
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+.color-2 {
+    background-color: blue;
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+.color-3 {
+    background-color: green;
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+.color-4 {
+    background-color: yellow;
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+.color-5 {
+    background-color: teal;
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+.color-6 {
+    background-color: white;
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+.color-7 {
+    background-color: gray;
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+.color-8 {
+    background-color: black;
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+.color-9 {
+    background-color: black;
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+.color-10 {
+    background-color: black;
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+  
