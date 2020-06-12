@@ -38,61 +38,97 @@ html, body {
 .current-color { grid-area: current-color; }
 
 .color-1 {
-    background-color: red;
+    background-color: rgb(255, 0, 0);
     border-radius: 50%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-2 {
-    background-color: blue;
+    background-color: rgb(128, 0, 0);
     border-radius: 50%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-3 {
-    background-color: green;
+    background-color: rgb(255, 51, 0);
     border-radius: 50%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-4 {
-    background-color: yellow;
+    background-color: rgb(255, 102, 0);
     border-radius: 50%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-5 {
-    background-color: teal;
+    background-color: rgb(255, 255, 0);
     border-radius: 50%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-6 {
-    background-color: white;
+    background-color: rgb(255, 255, 153);
     border-radius: 50%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-7 {
-    background-color: gray;
+    background-color: rgb(0, 51, 0);
     border-radius: 50%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-8 {
-    background-color: black;
+    background-color: rgb(0, 255, 0);
     border-radius: 50%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-9 {
-    background-color: black;
+    background-color: rgb(0, 0, 255);
     border-radius: 50%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-10 {
-    background-color: black;
+    background-color: rgb(0, 153, 255);
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+.color-11 {
+    background-color: rgb(51, 51, 153);
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+.color-12 {
+    background-color: rgb(102, 0, 204);
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+.color-13 {
+    background-color: rgb(102, 0, 102);
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+.color-14 {
+    background-color: rgb(192, 192, 192);
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+.color-15 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    line-height: 100%;
+    cursor: pointer;
+}
+.color-16 {
+    background-color: rgb(0, 0, 0);
     border-radius: 50%;
     line-height: 100%;
     cursor: pointer;
