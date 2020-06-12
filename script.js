@@ -6,10 +6,13 @@ for (let i = 0; i < 4000; i++) {
 }
 
 // gets current color picked and sets it
+// also sets current color box
 let currentColor = "rgb(255, 255, 255)"; // starting value is white
 document.querySelector("#color-picker").addEventListener("mousedown", (e) => {
   let currentElement = document.querySelector(`.${e.target.className}`);
   currentColor = getComputedStyle(currentElement).backgroundColor;
+  let currentColorBox = document.querySelector('.current-color-box');
+  currentColorBox.style.backgroundColor = currentColor
 });
 
 // changes background color of pixel clicked

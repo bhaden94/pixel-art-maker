@@ -5,6 +5,11 @@ html, body {
     background-color: darkgray;
 }
 
+h2 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
 .container {
     background-color: lightgray;
     border-radius: 1.5%;
@@ -28,109 +33,129 @@ html, body {
     background-color: lightgray;
     height: 12%;
     margin: 1% 0;
-    padding: .5%;
+    padding: 0 .5%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 1px 1px;
-    grid-template-areas: ". . . . . . . . . . . . . . . . . . . ." ". . . . . . . . . . . current-color current-color current-color current-color current-color current-color current-color current-color current-color";
+    gap: 1em;
+    grid-template-areas: ". . . . . . . . . ." ". . . . . . current-color current-color current-color-box current-color-box";
 }
-.current-color { grid-area: current-color; }
+.current-color { 
+    grid-area: current-color; 
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#color-query {
+    margin: 0 10%;
+}
+
+.current-color-box {
+    grid-area: current-color-box; 
+    background-color: #fff;
+    width: 100%;
+    margin-top: 10px;
+}
 
 .color-1 {
     background-color: rgb(255, 0, 0);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-2 {
     background-color: rgb(128, 0, 0);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-3 {
     background-color: rgb(255, 51, 0);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-4 {
     background-color: rgb(255, 102, 0);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-5 {
     background-color: rgb(255, 255, 0);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-6 {
     background-color: rgb(255, 255, 153);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-7 {
     background-color: rgb(0, 51, 0);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-8 {
     background-color: rgb(0, 255, 0);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-9 {
     background-color: rgb(0, 0, 255);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-10 {
     background-color: rgb(0, 153, 255);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-11 {
     background-color: rgb(51, 51, 153);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-12 {
     background-color: rgb(102, 0, 204);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-13 {
     background-color: rgb(102, 0, 102);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-14 {
     background-color: rgb(192, 192, 192);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-15 {
     background-color: rgb(255, 255, 255);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
 .color-16 {
     background-color: rgb(0, 0, 0);
-    border-radius: 50%;
+    border-radius: 15%;
     line-height: 100%;
     cursor: pointer;
 }
-  
+
+@media only screen and (max-width: 1400px) {
+    h2 {
+        font-size: 1rem;
+    }
+}
