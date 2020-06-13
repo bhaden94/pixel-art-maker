@@ -16,6 +16,8 @@ h2 {
     margin: 1% 10%;
     padding: 1%;
     height: 90%;
+    -webkit-box-shadow: 2px 5px 16px 0px black, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 2px 5px 16px 0px black, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
 #pixel-container {
